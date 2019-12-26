@@ -1,0 +1,52 @@
+html{
+    scroll-behavior: smooth;
+    font-family: 'Noto Sans', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+/* body { font-family: "Bitstream Vera Serif Bold", serif } */
+.container{
+    width: 1024px;
+    margin: 0 auto;
+    
+}
+
+.goTop{
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    cursor: pointer;
+    bottom: 10px;
+    left: 10px;
+    opacity: 0.5;
+    font-weight: 700;
+}
+
+.goTop:hover{
+    opacity: 1;
+    transition: all 1.7s ease;
+}
+
+
+
+/* CSS Media Queries */
+@media screen and (max-width: 1080px) {
+    .container{
+        width: 768px;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .container{
+        width: 480px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container{
+        width: 320px;
+    }
+}

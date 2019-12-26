@@ -1,0 +1,23 @@
+main{
+    font-size: 18px;
+}
+
+img {
+    float: left;
+    margin-right: 15px;
+}
+
+.services{
+    list-style: none;
+}
+
+.service{
+    position: relative;
+}
+
+.service::before{
+    position: absolute;
+    right: 0;
+    content: "->";
+    z-index: 10;
+}
