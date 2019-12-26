@@ -16,7 +16,7 @@ img {
 }
 
 .service::before{
-    position: absolute;
+    /* position: absolute; */
     right: 0;
     content: "->";
     z-index: 10;
