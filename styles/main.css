@@ -1,23 +1,27 @@
-main{
+main {
     font-size: 18px;
 }
 
 img {
-    float: left;
+    float: right;
     margin-right: 15px;
 }
 
-.services{
+.services {
     list-style: none;
 }
 
-.service{
-    position: relative;
+.service {
 }
 
-.service::before{
-    /* position: absolute; */
-    right: 0;
+.service:nth-child(even)::before {
+    background-color: lightgreen;
+    color: #000;
+}
+
+.service::before {
     content: "->";
-    z-index: 10;
+    color: #fff;
+    background-color: gray;
+    font-weight: 800;
 }
