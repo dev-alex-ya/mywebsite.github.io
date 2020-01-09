@@ -13,6 +13,11 @@ body{
     
 }
 
+.title {
+    font-weight: 800;
+    font-size: 20px;
+}
+
 .goTop{
     padding: 10px 15px;
     background-color: black;
