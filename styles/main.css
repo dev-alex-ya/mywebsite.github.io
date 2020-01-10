@@ -22,3 +22,9 @@ ul ul li {
 .service:nth-child(even) a {
     color: rgb(175, 0, 0);
 }
+
+@media screen and (max-width: 500px) {
+    img {
+        float: none;
+    }
+}

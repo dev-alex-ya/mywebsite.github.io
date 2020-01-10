@@ -15,6 +15,10 @@ body{
     
 }
 
+a {
+    color: rgb(100, 0, 0);
+}
+
 .title {
     font-weight: 800;
     font-size: 20px;
@@ -54,6 +58,7 @@ body{
 
 @media screen and (max-width: 500px) {
     .container{
-        width: 320px;
+        /* width: 320px; */
+        width: 95%;
     }
 }
