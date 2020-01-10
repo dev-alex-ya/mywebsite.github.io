@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Главная страница</title>
     <link rel="stylesheet" href="./styles/font-awesome-4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/header.css">
@@ -17,21 +17,27 @@
     <a name="top"></a>
     <header>
         <div class="container">
-            <ul class="menu">
-                <!-- настроить кнопки чтобы срабатывало по всей площади -->
-                <li class="menu-item"><a href="index.html">Главная</a></li>
-                <li class="menu-item"><a href="about.html">О нас</a></li>
-                <li class="menu-item">
-                    <a href="services.html">Services</a>
-                    <ul class="submenu">
-                        <li class="submenu-item"><a href="">Разработка сайтов</a></li>
-                        <li class="submenu-item"><a href="">Продвижение сайтов</a></li>
-                        <li class="submenu-item"><a href="">Мобильные приложения</a></li>
-                    </ul>
-                </li>
-                <li class="menu-item"><a href="blog.html">Наш блог</a></li>
-                <li class="menu-item"><a href="feedback.html">Обратная связь</a></li>
-            </ul>
+            <nav>
+                <button class="burger">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </button>
+                <ul class="menu">
+                    <!-- настроить кнопки чтобы срабатывало по всей площади -->
+                    <li class="menu-item"><a href="index.html">Главная</a></li>
+                    <li class="menu-item"><a href="about.html">О нас</a></li>
+                    <li class="menu-item">
+                        <a href="services.html">Услуги</a>
+                        <i class="fa fa-caret-down" aria-hidden="true"></i>
+                        <ul class="submenu">
+                            <li class="submenu-item"><a href="">Разработка сайтов</a></li>
+                            <li class="submenu-item"><a href="">Продвижение сайтов</a></li>
+                            <li class="submenu-item"><a href="">Мобильные приложения</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item"><a href="blog.html">Наш блог</a></li>
+                    <li class="menu-item"><a href="feedback.html">Обратная связь</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
     
