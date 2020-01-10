@@ -15,18 +15,10 @@ ul ul li {
     list-style: none;
 }
 
-.service {
+.service a {
+    color: rgb(100, 0, 0);
 }
 
-.service:nth-child(even)::before {
-    background-color: lightgreen;
-    color: #000;
-}
-
-.service::before {
-    content: url("images/webicons.jpg");
-    width: 100px;
-    color: #fff;
-    background-color: gray;
-    font-weight: 800;
+.service:nth-child(even) a {
+    color: rgb(175, 0, 0);
 }

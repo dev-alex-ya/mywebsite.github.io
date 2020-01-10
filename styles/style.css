@@ -5,6 +5,8 @@ html{
 body{
     margin: 0;
     padding: 0;
+    background-image: url(../images/background.png);
+    background-repeat: repeat;
 }
 /* body { font-family: "Bitstream Vera Serif Bold", serif } */
 .container{
