@@ -1,2 +1,3 @@
 # mywebsite.github.io
-Some pet website
+Тестовый макет
+https://dev-alex-ya.github.io/mywebsite.github.io/
