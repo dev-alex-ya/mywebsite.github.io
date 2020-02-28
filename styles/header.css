@@ -1,111 +1,23 @@
-header{
-    background-color: black;
-    color: white;
-    box-shadow:0px 7px 10px 0px rgba(0,0,0,0.7);
+header {
+    -webkit-box-shadow: 0px 6px 23px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 23px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 6px 23px 2px rgba(0,0,0,0.75);
+
     margin-bottom: 40px;
 }
 
-.burger {
-    display: none;
-}
-
-.burger i {
-    width: 25px;
-    height: 25px;
-    position: relative;
-}
-
-.burger i::before {
-    top: calc(50% - 6px);
-    left: calc(50% - 6px);
-    position: absolute;
-}
-
-.burger:focus + .menu {
-    display: block;
-}
-
-.burger:focus + .menu li{
-    display: block;
-    z-index: 10;
-}
-
 .menu {
-    list-style-type: none;
-    padding-left: 0;
-    background-color: black;
-    font-size: 20px;
-    text-transform: capitalize;
-    margin-left: -10px;
-    margin-right: -10px;
+    background-color: #28a745;
 }
 
-.menu li {
-    display: inline-block;
-    padding: 10px;
-    position: relative;
+.navbar-brand {
+    font-size: 2em;
+    /* text-transform: uppercase; */
+    text-shadow: 0px 3px 12px #FFFFFF;
+    font-weight: 800;
+    font-family: "Bitstream Vera Serif Bold", serif;
 }
 
-.menu li:hover{
-    background-color: white;
-    transition: all 1.0s ease;
-}
-
-.menu li a{
-    color: white;
-    text-decoration: none;
-    transition: all 0.7s ease;
-}
-
-.menu li:hover > a{
-    color: black;
-    transition: all 0.7s ease;
-}
-.menu li:hover > .submenu{
-    display: block;
-}
-
-.main-menu {
-    position: relative;
-}
-
-.main-menu > li{
-    margin-top: 24px;
-    margin-bottom: 24px;
-}
-
-
-.submenu {
-    background-color: black;
-    margin: 0;
-    position: absolute;
-    display: none;
-    top: 40px;
-    left: 0;
-    box-shadow: 0px 7px 10px 0px
-     rgba(0,0,0,0.7);
-}
-
-.submenu li {
-    background-color: black;
-}
-
-
-
-@media screen and (max-width: 810px) {
-    .burger {
-        display: inline-block;
-    }
-
-    .menu {
-        display: none;
-    }
-
-    .menu-item:hover > .submenu{
-        /* right: 200px; */
-        /* top: 0; */
-        transition: all 0.7s ease;
-        box-shadow:0px 7px 10px 0px rgba(0,0,0,0.7);
-        z-index: 10;
-    }
+.btn-search {
+    
 }

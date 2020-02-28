@@ -2,31 +2,6 @@ html{
     scroll-behavior: smooth;
     font-family: 'Noto Sans', sans-serif;
 }
-body{
-    margin: 0;
-    padding: 0;
-    background-image: url(../images/background.png);
-    background-repeat: repeat;
-}
-/* body { font-family: "Bitstream Vera Serif Bold", serif } */
-.container{
-    width: 1024px;
-    margin: 0 auto;
-    
-}
-
-h1 {
-    text-shadow: 3px 7px 7px  rgba(63, 57, 57, 0.7);
-}
-
-a {
-    color: rgb(100, 0, 0);
-}
-
-.title {
-    font-weight: 800;
-    font-size: 20px;
-}
 
 .goTop{
     padding: 10px 15px;
@@ -47,23 +22,4 @@ a {
 }
 
 
-
-/* CSS Media Queries */
-@media screen and (max-width: 1080px) {
-    .container{
-        width: 768px;
-    }
-}
-
-@media screen and (max-width: 810px) {
-    .container{
-        width: 480px;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .container{
-        /* width: 320px; */
-        width: 95%;
-    }
-}
+@import url("header.css");
