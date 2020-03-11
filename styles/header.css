@@ -13,9 +13,10 @@ header {
 .navbar-brand {
     font-size: 2em;
     /* text-transform: uppercase; */
-    text-shadow: 0px 3px 12px #FFFFFF;
+    text-shadow: 0px 3px 13px white;
     font-weight: 800;
     font-family: "Bitstream Vera Serif Bold", serif;
+    color: white !important;
 }
 
 .btn-search {

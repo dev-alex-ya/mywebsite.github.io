@@ -1,3 +1,57 @@
+.carousel {
+    margin-bottom: 50px;
+    -webkit-box-shadow: 0px 6px 24px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 24px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px 6px 24px -4px rgba(0,0,0,0.75);
+}
+
+.event-item {
+    display: block;
+    border: 2px solid #28a745;
+    color: black;
+    margin-bottom: 20px;
+
+    -webkit-box-shadow: 0px 6px 24px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 24px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px 6px 24px -4px rgba(0,0,0,0.75);
+}
+
+.event-item:hover {
+    text-decoration: none;
+    color:#00811e;
+    -webkit-box-shadow: 0px 6px 24px 5px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 6px 24px 5px rgba(0,0,0,0.75);
+box-shadow: 0px 6px 24px 5px rgba(0,0,0,0.75);
+}
+
+.event-item:hover .event-title{
+    text-shadow: 0px 3px 13px white;
+}
+
+.event-item:hover .event-date {
+    color: white;
+    font-weight: 800;
+}
+
+.event-title {
+    font-weight: 800;
+    background-color: #28a745;
+    margin: 0;
+    color: white;
+    padding: 5px;
+}
+
+.event-date {
+    background-color: #28a745;
+    color: lightyellow;
+    font-size: 0.7em;
+    padding: 0 5px 5px 5px;
+}
+
+.event-body {
+    padding: 0 5px 5px 5px;
+}
+
 .cardbar {
     display: flex;
     flex-wrap: wrap;
@@ -11,9 +65,9 @@
 
 .present {
     border: 1px solid lightgray ;
-    -webkit-box-shadow: 0px 7px 16px -11px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 7px 16px -11px rgba(0,0,0,0.75);
-    box-shadow: 0px 7px 16px -11px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 6px 24px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 24px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px 6px 24px -4px rgba(0,0,0,0.75);
     width: 18em;
     margin: 10px;
     padding: 10px;
@@ -24,6 +78,30 @@
     height: 145px;
 }
 
+.user {
+    overflow: hidden;
+    padding: 15px 0 0 0;
+    border: 3px solid #28a745;
+    border-radius:  15px;
+    -webkit-box-shadow: 0px 6px 24px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 24px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px 6px 24px -4px rgba(0,0,0,0.75);
+    
+}
+
+.user .card-body {
+    background-color: #7eff9c;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.avatar {
+    width: 50%;
+    border-radius: 50% 5% !important;
+    border: 3px solid #28a745;
+    margin-bottom: 20px;
+}
+
 /* 
  Экстрамалые девайсы («телефоны», < 576px)
  Нет @media, т.к. это по умолчанию в Bootstrap*/
@@ -31,7 +109,7 @@
 /* Малые девайсы («ландшафтные телефоны», >= 576px) */
 @media (min-width: 576px) { 
 
- }
+}
 
 /* Средние девайсы («таблетки», >= 768px)*/
 @media (min-width: 768px) {
